@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2E-Qz-PNL">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2E-Qz-PNL">
                                 <rect key="frame" x="241" y="91" width="120" height="45"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <state key="normal" title="Calculate!">
@@ -51,6 +51,7 @@
                             <constraint firstItem="mzf-HT-6DE" firstAttribute="centerX" secondItem="b2E-Qz-PNL" secondAttribute="centerX" constant="-12.5" id="isP-8y-u0X"/>
                             <constraint firstItem="r31-XO-0ri" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="kVS-6S-xIb"/>
                             <constraint firstItem="mzf-HT-6DE" firstAttribute="width" secondItem="r31-XO-0ri" secondAttribute="width" id="ntV-48-be3"/>
+                            <constraint firstItem="b2E-Qz-PNL" firstAttribute="width" secondItem="fSQ-PY-xm1" secondAttribute="width" id="rSx-fa-wNO"/>
                             <constraint firstItem="r31-XO-0ri" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="sFy-RY-e0i"/>
                             <constraint firstItem="b2E-Qz-PNL" firstAttribute="top" secondItem="mzf-HT-6DE" secondAttribute="bottom" constant="1" id="tKb-Fo-458"/>
                             <constraint firstItem="mzf-HT-6DE" firstAttribute="centerX" secondItem="r31-XO-0ri" secondAttribute="centerX" constant="-12" id="vem-u3-igC"/>
