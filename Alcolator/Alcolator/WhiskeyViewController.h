@@ -9,5 +9,7 @@
 #import "ViewController.h"
 
 @interface WhiskeyViewController : ViewController
-
+@property (weak, nonatomic) IBOutlet UINavigationItem *whiskeyNavigationBar;
+- (IBAction)sliderValueDidChange:(UISlider *)sender;
+- (float)calculateShots:(int) nummberOfBeers;
 @end

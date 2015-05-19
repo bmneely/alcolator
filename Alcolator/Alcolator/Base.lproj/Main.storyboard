@@ -73,6 +73,7 @@
                         <outlet property="beerCountSlider" destination="mzf-HT-6DE" id="hTd-T8-dsH"/>
                         <outlet property="beerPercentTextField" destination="r31-XO-0ri" id="pSS-yU-RPP"/>
                         <outlet property="resultLabel" destination="fSQ-PY-xm1" id="Su8-RR-rJc"/>
+                        <outlet property="wineNavigationBar" destination="uox-fZ-uH2" id="sRQ-nl-pds"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -150,6 +151,7 @@
                         <outlet property="beerCountSlider" destination="o9z-HV-nwV" id="OCQ-8E-nzo"/>
                         <outlet property="beerPercentTextField" destination="bhN-ry-gfe" id="Jqh-k4-WqC"/>
                         <outlet property="resultLabel" destination="OIO-Dh-0gq" id="dbI-yl-Ift"/>
+                        <outlet property="whiskeyNavigationBar" destination="t9f-gx-p81" id="a8B-oi-R4g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vuP-nw-0OX" userLabel="First Responder" sceneMemberID="firstResponder"/>
