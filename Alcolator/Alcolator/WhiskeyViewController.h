@@ -9,5 +9,5 @@
 #import "ViewController.h"
 
 @interface WhiskeyViewController : ViewController
-
+- (float)calculateShots:(int) numberOfBeers;
 @end
