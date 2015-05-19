@@ -14,7 +14,6 @@
 		7922F8901B05933100AD3508 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7922F88F1B05933100AD3508 /* Images.xcassets */; };
 		7922F8931B05933100AD3508 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7922F8911B05933100AD3508 /* LaunchScreen.xib */; };
 		7922F89F1B05933100AD3508 /* AlcolatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7922F89E1B05933100AD3508 /* AlcolatorTests.m */; };
-		796C2DD01B0AE56E00395DB4 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796C2DCF1B0AE56E00395DB4 /* MainMenuViewController.m */; };
 		79F842C91B0996AB00254226 /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F842C81B0996AB00254226 /* WhiskeyViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -42,8 +41,6 @@
 		7922F8981B05933100AD3508 /* AlcolatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlcolatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7922F89D1B05933100AD3508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7922F89E1B05933100AD3508 /* AlcolatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlcolatorTests.m; sourceTree = "<group>"; };
-		796C2DCE1B0AE56E00395DB4 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuViewController.h; path = ../MainMenuViewController.h; sourceTree = "<group>"; };
-		796C2DCF1B0AE56E00395DB4 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuViewController.m; path = ../MainMenuViewController.m; sourceTree = "<group>"; };
 		79F842C71B0996AB00254226 /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
 		79F842C81B0996AB00254226 /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,8 +84,6 @@
 		7922F8811B05933100AD3508 /* Alcolator */ = {
 			isa = PBXGroup;
 			children = (
-				796C2DCE1B0AE56E00395DB4 /* MainMenuViewController.h */,
-				796C2DCF1B0AE56E00395DB4 /* MainMenuViewController.m */,
 				7922F8861B05933100AD3508 /* AppDelegate.h */,
 				7922F8871B05933100AD3508 /* AppDelegate.m */,
 				7922F8891B05933100AD3508 /* ViewController.h */,
@@ -233,7 +228,6 @@
 				79F842C91B0996AB00254226 /* WhiskeyViewController.m in Sources */,
 				7922F8881B05933100AD3508 /* AppDelegate.m in Sources */,
 				7922F8851B05933100AD3508 /* main.m in Sources */,
-				796C2DD01B0AE56E00395DB4 /* MainMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
