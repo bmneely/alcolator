@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPd-L4-8Aw">
-                                <rect key="frame" x="243.5" y="96" width="113" height="45"/>
+                                <rect key="frame" x="243" y="96" width="113" height="45"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <state key="normal" title="Calculate">
@@ -36,7 +36,7 @@
                                 <animations/>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9xx-rl-580">
-                                <rect key="frame" x="35" y="212" width="530" height="20.5"/>
+                                <rect key="frame" x="243" y="212" width="113" height="20.5"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -47,8 +47,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9xx-rl-580" secondAttribute="bottom" constant="367" id="3ka-Se-UKD"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="9xx-rl-580" secondAttribute="trailing" constant="15" id="DeZ-JI-AcD"/>
+                            <constraint firstItem="9xx-rl-580" firstAttribute="centerY" secondItem="oPd-L4-8Aw" secondAttribute="centerY" id="1TQ-TX-oUT"/>
+                            <constraint firstItem="9xx-rl-580" firstAttribute="width" secondItem="oPd-L4-8Aw" secondAttribute="width" id="B4s-x9-fyj"/>
                             <constraint firstAttribute="trailingMargin" secondItem="qwi-IP-hIj" secondAttribute="trailing" id="GFd-UX-Z31"/>
                             <constraint firstItem="yEU-e5-lHs" firstAttribute="centerX" secondItem="qwi-IP-hIj" secondAttribute="centerX" id="HCU-mG-b65"/>
                             <constraint firstItem="qwi-IP-hIj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="OjS-6C-Bc1"/>
@@ -56,7 +56,8 @@
                             <constraint firstItem="yEU-e5-lHs" firstAttribute="width" secondItem="qwi-IP-hIj" secondAttribute="width" id="f8R-XM-SZd"/>
                             <constraint firstItem="yEU-e5-lHs" firstAttribute="top" secondItem="qwi-IP-hIj" secondAttribute="bottom" constant="8" id="gvu-al-DTT"/>
                             <constraint firstItem="oPd-L4-8Aw" firstAttribute="centerX" secondItem="yEU-e5-lHs" secondAttribute="centerX" id="ibe-fc-uwL"/>
-                            <constraint firstItem="9xx-rl-580" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="pLg-aM-mN4"/>
+                            <constraint firstItem="9xx-rl-580" firstAttribute="top" secondItem="oPd-L4-8Aw" secondAttribute="bottom" constant="71" id="il8-sb-Ii9"/>
+                            <constraint firstItem="9xx-rl-580" firstAttribute="centerX" secondItem="oPd-L4-8Aw" secondAttribute="centerX" id="uYw-eh-xQa"/>
                             <constraint firstAttribute="leadingMargin" secondItem="qwi-IP-hIj" secondAttribute="leading" id="vph-ZH-Gdn"/>
                         </constraints>
                         <connections>
